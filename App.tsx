@@ -1,10 +1,11 @@
-import React, {FC} from 'react';
+import React, {FC, useEffect} from 'react';
 import {
   SafeAreaView,
   ScrollView,
   StatusBar,
   useColorScheme,
   Button,
+  NativeEventEmitter,
 } from 'react-native';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
